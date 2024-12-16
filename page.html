@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="container text-center my-5" id="first">
+    <div class="container text-center my-5 d-none" id="first">
         <div class="login w-75 m-auto p-5">
             <h1>
                 Smart Login System
@@ -32,7 +32,6 @@
                 Enter Correct Password
             </p>
             <p id="incorrect"></p>
-            <p id="exist1" class="text-danger m-3 d-none">email already exists</p>
             <button class="btn btn-outline-info w-100 my-3" onclick="login()">
                 Login
             </button>
@@ -42,7 +41,7 @@
             </p>
         </div>
     </div>
-    <div class="container text-center my-5 d-none" id="scond">
+    <div class="container text-center my-5 " id="scond">
         <div class="login w-75 m-auto p-5">
             <h1>
                 Smart Login System
@@ -72,6 +71,7 @@
             </p>
         </div>
     </div>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
